@@ -3,7 +3,7 @@ import { House, User, FolderClosed, BriefcaseBusiness, Server, Mail, FileText, B
 function Navbar() {
 
   return (
-    <nav className="w-[150px] h-screen flex flex-col items-center bg-[#0c0e10]">
+    <nav className="w-[150px] h-screen flex flex-col items-center bg-[#0c0e10] border-r-2 border-[#181a1c]">
       <div className="mb-10">
         <div className="text-white text-5xl font-medium mt-10 flex">
           <p>J</p>
@@ -48,10 +48,12 @@ function Navbar() {
           <a href="#resume-section" className="text-[#9c9ea0] cursor-pointer group-hover:text-[#e4822d]" >RESUME</a>
         </div>
 
-        <div className="group flex flex-col items-center py-3 hover:bg-[#e4822d]/10 hover:border-l-2 hover:border-[#e4822d]">
-          <Mail className="text-[#9c9ea0] group-hover:text-[#e4822d]" />
-          <a href="#contact-section" className="text-[#9c9ea0] cursor-pointer group-hover:text-[#e4822d]" >CONTACT</a>
-        </div>
+        <a href="#contact-section" className="text-[#9c9ea0] cursor-pointer group-hover:text-[#e4822d]" >
+          <div className="group flex flex-col items-center py-3 hover:bg-[#e4822d]/10 hover:border-l-2 hover:border-[#e4822d]">
+            <Mail className="text-[#9c9ea0] group-hover:text-[#e4822d]" />
+            <p className='text-[#9c9ea0] cursor-pointer group-hover:text-[#e4822d]'>CONTACT</p>
+          </div>
+        </a>
 
       </div>
     </nav >
