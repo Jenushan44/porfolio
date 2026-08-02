@@ -8,14 +8,16 @@ import gmailButtonLogo from "./assets/gmail-button-logo.png"
 import { MessageCircle } from 'lucide-react';
 import ProjectSection from "./components/ProjectSection";
 import AboutSection from "./components/AboutSection";
+import TechnologySection from "./components/TechnologySection";
 
 export default function Home() {
   return (
     <div className="flex bg-[#0f1112]">
       <Navbar></Navbar>
       <main className="flex-1">
-        <div className="mb-2 mt-2">
+        <div className="mb-2 mt-2 flex">
           <AboutSection />
+          <TechnologySection />
         </div>
         <ProjectSection />
       </main>
