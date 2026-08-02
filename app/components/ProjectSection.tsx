@@ -11,8 +11,10 @@ function ProjectSection() {
 
       </div>
 
-      <div className='mt-2 mb-2 ml-2'>
+      <div className='mt-2 mb-2 ml-2 flex gap-2'>
         <ProjectCard name='API Security Analyzer' image='/images/api-security-analyzer.png' description='Scans APIs for security vulnerabilities and misconfiguration. Generates detailed reports with risk scoring' skills={["Next.js", "TypeScript", "FastAPI", "PostgreSQL",]} />
+        <ProjectCard name='Soul Eater API' image='/images/soul-eater-api.png' description='A full-stack REST API for the Soul Eater anime and manga. Browse characters, weapons, abilities, organizations, and story arcs.' skills={["Next.js", "TypeScript", "FastAPI", "SQLAlchemy",]} />
+        <ProjectCard name='Olympic Performance Analyzer' image='/images/olympic-performance-analyzer.png' description='A full-stack REST API for the Soul Eater anime and manga. Browse characters, weapons, abilities, organizations, and story arcs.' skills={["Python", "Pandas", "Streamlit", "Plotly",]} />
       </div>
     </div>
   );
