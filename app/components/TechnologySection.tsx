@@ -10,7 +10,7 @@ function TechnologySection() {
         <Dot className='mt-5 text-[#e4822d]' />
       </div>
 
-      <div className="text-white grid grid-cols-3 mt-2">
+      <div className="text-white grid grid-cols-3 2xl:grid-cols-4 mt-2">
         <div className="flex flex-col items-center mb-2">
           <img width={40} height={40} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
           <p>Python</p>

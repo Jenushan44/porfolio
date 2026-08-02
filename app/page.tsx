@@ -9,6 +9,7 @@ import { MessageCircle } from 'lucide-react';
 import ProjectSection from "./components/ProjectSection";
 import AboutSection from "./components/AboutSection";
 import TechnologySection from "./components/TechnologySection";
+import ExperienceSection from "./components/ExperienceSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           <AboutSection />
           <TechnologySection />
         </div>
+        <ExperienceSection />
         <ProjectSection />
       </main>
 
