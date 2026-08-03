@@ -10,6 +10,7 @@ import ProjectSection from "./components/ProjectSection";
 import AboutSection from "./components/AboutSection";
 import TechnologySection from "./components/TechnologySection";
 import ExperienceSection from "./components/ExperienceSection";
+import CurrentlyLearning from "./components/CurrentlyLearning";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
         </div>
         <ExperienceSection />
         <ProjectSection />
+        <div>
+          <CurrentlyLearning />
+        </div>
       </main>
 
 
