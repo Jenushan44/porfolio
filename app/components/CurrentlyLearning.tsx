@@ -9,25 +9,40 @@ function CurrentlyLearning() {
         <p className="mt-5 text-white">currently learning</p>
         <Dot className='mt-5 text-[#e4822d]' />
       </div>
-      <div className="text-white">
-        <div>
+      <div className="text-white mx-5 mt-5">
+        <div className="flex items-center gap-5 w-full">
           <p>Docker & Containers</p>
-          <div className="h-2 w-10 bg-white overflow-hidden">
-            <div className="h-full w-4 bg-[#e4822d]" />
-          </div>
+          <p className="ml-auto text-white/60">40%</p>
+        </div>
+        <div className="h-1 border-[#323334] rounded-md w-full bg-[#323334] overflow-hidden mb-3">
+          <div className="h-full w-[40%] bg-[#e4822d]" />
         </div>
 
-        <div>
+        <div className="flex items-center gap-5">
           <p>Linux Administration</p>
+          <p className="ml-auto text-white/60">55%</p>
+        </div>
+        <div className="h-1 border-[#323334] rounded-md w-full bg-[#323334] overflow-hidden mb-3">
+          <div className="h-full w-[55%] bg-[#e4822d]" />
         </div>
 
-        <div>
+        <div className="flex items-center gap-5">
           <p>Machine Learning</p>
+          <p className="ml-auto text-white/60">20%</p>
+        </div>
+        <div className="h-1 border-[#323334] rounded-md w-full bg-[#323334] overflow-hidden mb-3">
+          <div className="h-full w-[20%] bg-[#e4822d]" />
         </div>
 
-        <div>
+
+        <div className="flex items-center gap-5">
           <p>Networking</p>
+          <p className="ml-auto text-white/60">50%</p>
         </div>
+        <div className="h-1 border-[#323334] rounded-md w-full bg-[#323334] overflow-hidden mb-3">
+          <div className="h-full w-[50%] bg-[#e4822d]" />
+        </div>
+
 
       </div>
 
