@@ -24,3 +24,21 @@ body {
     30px 30px,
     30px 30px;
 }
+
+.blueprint-text-white {
+  color: rgba(7, 27, 55, 0.15);
+
+  -webkit-text-stroke: 1px rgba(225, 237, 255, 0.9);
+
+
+}
+
+.blueprint-text-blue {
+  color: rgba(0, 70, 165, 0.18);
+
+  -webkit-text-stroke: 1px #1684ff;
+
+  text-shadow:
+    2px 2px 0 rgba(22, 132, 255, 0.28),
+    4px 4px 0 rgba(22, 132, 255, 0.1);
+}
