@@ -9,7 +9,7 @@ import BannerSection from "./components/BannerSection";
 
 export default function Home() {
   return (
-    <div className="blueprint-bg flex text-white">
+    <div className="blueprint-bg text-white">
       <Navbar />
 
       <main className="flex-1">
