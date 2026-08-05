@@ -13,7 +13,7 @@ export default function Home() {
     <div className="blueprint-bg text-white">
       <Navbar />
 
-      <main className="flex-1">
+      <main className="flex-1 mb-20">
         <BannerSection />
 
         <div className="mb-2 mt-2">
@@ -24,10 +24,10 @@ export default function Home() {
 
         <ExperienceSection />
         <ProjectSection />
+        <HomeLabSection />
+
 
         <div className="flex">
-          <CurrentlyLearningSection />
-          <HomeLabSection />
         </div>
       </main>
     </div>
