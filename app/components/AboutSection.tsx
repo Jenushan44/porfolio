@@ -1,19 +1,22 @@
 import { Dot } from 'lucide-react';
+import { bebasNeue, ibmPlexMono } from "../fonts";
+
 
 function AboutSection() {
 
   return (
-    <div className="bg-[#1b1d1f] mx-5 min-h-[350px] border-[#222325] border-2 rounded-md w-1/3">
+    <div className="mx-5 min-h-[350px] rounded-md w-full">
       <div className='flex gap-2'>
-        <p className="ml-3 mt-5 text-[#e4822d]">//</p>
-        <p className="mt-5 text-white">about me</p>
-        <Dot className='mt-5 text-[#e4822d]' />
+        <p className={`${bebasNeue.className} blueprint-text-white text-[75px] leading-[0.82] text-white/90 tracking-[0.015em]`}>ABOUT ME</p>
       </div>
-      <p className='text-white text-md mt-2 mx-3'>Fourth-year Computer Science student at Toronto Metropolitan University focused on building practical software and continuously improving my skills.</p>
-      <p className='text-white text-md mt-2 mx-3'>- Interests: Software Development, Cybersecurity, AI/ML</p>
-      <p className='text-white text-md mt-2 mx-3'>- Current Focus: React, Next.js, FastAPI, PostgreSQL</p>
-      <p className='text-white text-md mt-2 mx-3'>- Learning: Docker, Linux, Homelab</p>
-      <p className='text-white text-md mt-2 mx-3'>- Looking For: Software Engineering internships</p>
+
+      <div className='border-1 border-[#1b88f2] w-1/2 mt-2'>
+        <p className={`${ibmPlexMono.className} text-[#1b88f2] ml-2 text-xl`}>WHO I AM</p>
+        <div className='ml-2 flex gap-2'>
+          <p>I'm Jenushan Premkumar, a fourth-year Computer Science student at Toronto Metropolitan University.
+            I enjoy building software and learning how systems work behind the scenes. I'm currently focused on full stack development, cybersecurity, AI, and self-hosted infrastructure while building projects that help me become a better engineer.</p>
+        </div>
+      </div>
 
     </div>
   );
