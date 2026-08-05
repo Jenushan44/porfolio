@@ -34,13 +34,13 @@ function ProjectCard({ name, image, description, skills, project_url, github_url
 
       <div className="mt-2 flex items-center justify-center mr-5 gap-3">
         <div className="mx-auto py-5">
-          <a href={project_url} target="_blank" className=" flex w-fit items-center justify-center gap-3 border border-[#1b88f2] px-3 py-2 text-white shadow-[3px_3px_0_#1b88f2] transition-all duration-150 hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none">
+          <a href={project_url} target="_blank" className=" flex w-fit items-center justify-center gap-3 border border-[#1b88f2] px-3 py-2 text-[#d8ecff] shadow-[3px_3px_0_#1b88f2] transition-all duration-150 hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none">
             View Project<ExternalLink />
           </a>
         </div>
         <div className="mx-auto h-[95%] w-[0.5px] bg-[#1b88f2]" />
         <div className="mx-auto py-5">
-          <a href={github_url} target="_blank" className=" flex w-fit items-center justify-center gap-3 border border-[#1b88f2] px-3 py-2 text-white shadow-[3px_3px_0_#1b88f2] transition-all duration-150 hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none">
+          <a href={github_url} target="_blank" className="text-[#d8ecff] flex w-fit items-center justify-center gap-3 border border-[#1b88f2] px-3 py-2 shadow-[3px_3px_0_#1b88f2] transition-all duration-150 hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none">
             GitHub <img className="w-6 h-6 invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
           </a>
         </div>

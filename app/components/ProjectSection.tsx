@@ -1,4 +1,4 @@
-import { Dot } from 'lucide-react';
+import { Dot, ChevronRight } from 'lucide-react';
 import ProjectCard from './ProjectCard';
 import { bebasNeue, ibmPlexMono } from "../fonts";
 
@@ -12,6 +12,9 @@ function ProjectSection() {
           <ProjectCard name='Soul Eater API' image='/images/soul-eater-api.png' description='Full-stack REST API and web application built around the Soul Eater anime and manga universe. Browse characters, weapons, abilities, organizations, and story arcs with search and filtering. Features a responsive interface backed by a custom FastAPI backend.' skills={["Next.js", "TypeScript", "FastAPI", "SQLAlchemy",]} project_url='https://soul-eater-api.vercel.app/' github_url='https://github.com/Jenushan44/soul-eater-api' />
           <ProjectCard name='Olympic Performance Analyzer' image='/images/olympic-performance-analyzer.png' description='Interactive data analytics dashboard exploring more than a century of Olympic history. Analyze medal trends, country performance, and sport specialization through visualizations. Built with Python and modern data analysis libraries to transform large datasets into insights.' skills={["Python", "Pandas", "Streamlit", "Plotly",]} project_url='https://olympic-performance-analyzer.streamlit.app/' github_url='https://github.com/Jenushan44/olympic-performance-analyzer' />
         </div>
+        <a href="https://github.com/Jenushan44?tab=repositories" target="_blank" className="mx-auto mt-10 mb-10 flex w-fit items-center border-2 border-[#1b88f2] bg-[#001432] px-20 py-5 font-semibold uppercase tracking-wider text-lg text-[#d8ecff] shadow-[0_8px_0_#0a4f93] transition-all duration-150 hover:translate-y-[3px] hover:shadow-[0_5px_0_#0a4f93] active:translate-y-[8px] active:shadow-none">
+          View All Projects<ChevronRight />
+        </a>
       </div>
     </div>
   );
