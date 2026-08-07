@@ -7,6 +7,7 @@ import CurrentlyLearningSection from "./components/CurrentlyLearningSection";
 import HomeLabSection from "./components/HomelabSection";
 import BannerSection from "./components/BannerSection";
 import EducationSection from "./components/EducationSection"
+import CertificationSection from "./components/CertificationSection";
 
 export default function Home() {
   return (
@@ -18,14 +19,14 @@ export default function Home() {
 
         <div className="mb-2 mt-2">
           <AboutSection />
-          <EducationSection />
           <TechnologySection />
         </div>
 
         <ExperienceSection />
         <ProjectSection />
         <HomeLabSection />
-
+        <EducationSection />
+        <CertificationSection />
 
         <div className="flex">
         </div>
