@@ -8,6 +8,7 @@ import HomeLabSection from "./components/HomelabSection";
 import BannerSection from "./components/BannerSection";
 import EducationSection from "./components/EducationSection"
 import CertificationSection from "./components/CertificationSection";
+import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
@@ -27,9 +28,8 @@ export default function Home() {
         <HomeLabSection />
         <EducationSection />
         <CertificationSection />
+        <ContactSection />
 
-        <div className="flex">
-        </div>
       </main>
     </div>
   );
