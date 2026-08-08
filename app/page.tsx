@@ -6,7 +6,6 @@ import ExperienceSection from "./components/ExperienceSection";
 import CurrentlyLearningSection from "./components/CurrentlyLearningSection";
 import HomeLabSection from "./components/HomelabSection";
 import BannerSection from "./components/BannerSection";
-import EducationSection from "./components/EducationSection"
 import CertificationSection from "./components/CertificationSection";
 import ContactSection from "./components/ContactSection";
 
@@ -26,7 +25,6 @@ export default function Home() {
         <ExperienceSection />
         <ProjectSection />
         <HomeLabSection />
-        <EducationSection />
         <CertificationSection />
         <ContactSection />
 
