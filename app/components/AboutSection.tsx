@@ -65,7 +65,7 @@ function AboutSection() {
 
 
                 <div className="flex items-center gap-3">
-                  <p className={`${ibmPlexMono.className} text-[10px] text-[#1b88f2]/45`}>02</p>
+                  <p className={`${ibmPlexMono.className} text-[12px] text-[#1b88f2]/45`}>02</p>
                   <p className={`${ibmPlexMono.className} text-lg text-[#1b88f2]`}>// CURRENT FOCUS</p>
                   <div className="h-[1px] flex-1 bg-[#1b88f2]/20" />
                 </div>
@@ -173,7 +173,7 @@ function AboutSection() {
             <div className="border-t border-[#1b88f2]/40 px-8 py-9">
 
               <div className="flex items-center gap-3">
-                <p className={`${ibmPlexMono.className} text-[10px] text-[#1b88f2]/45`}>03</p>
+                <p className={`${ibmPlexMono.className} text-[12px] text-[#1b88f2]/45`}>03</p>
 
                 <p className={`${ibmPlexMono.className} text-lg text-[#1b88f2]`}>// EDUCATION</p>
 
@@ -235,7 +235,7 @@ function AboutSection() {
                     <p className={`${ibmPlexMono.className} text-sm text-[#1b88f2]`}>ACADEMIC RECOGNITION</p>
                   </div>
 
-                  <p className="mt-5 text-lg font-semibold text-white">Dean&apos;s List</p>
+                  <p className="mt-5 text-lg font-semibold text-white">Dean's List</p>
                   <p className="mt-2 text-sm text-white/60">Fall 2024</p>
                   <p className="text-sm text-white/60">2025–2026 Academic Year</p>
 
@@ -248,7 +248,7 @@ function AboutSection() {
             <div className="border-t border-[#1b88f2]/40 px-8 py-9">
 
               <div className="flex items-center gap-3">
-                <p className={`${ibmPlexMono.className} text-[10px] text-[#1b88f2]/45`}>04</p>
+                <p className={`${ibmPlexMono.className} text-[12px] text-[#1b88f2]/45`}>04</p>
 
                 <p className={`${ibmPlexMono.className} text-lg text-[#1b88f2]`}>// RELEVANT COURSEWORK</p>
                 <div className="h-[1px] flex-1 bg-[#1b88f2]/20" />
