@@ -129,7 +129,7 @@ function ContactSection() {
                   </div>
                 </div>
 
-                <button type="submit" disabled={state.submitting} className="cursor-pointer gap-2 mx-auto mt-5 mb-5 flex w-fit items-center border-2 border-[#1b88f2] bg-[#001432] px-20 py-2 font-semibold uppercase tracking-wider text-sm text-[#d8ecff] shadow-[0_8px_0_#0a4f93] transition-all duration-150 hover:translate-y-[3px] hover:shadow-[0_5px_0_#0a4f93] active:translate-y-[8px] active:shadow-none py-2"><Send size={20} />{state.submitting ? "Sending" : "Send Message"}</button>
+                <button type="submit" disabled={state.submitting} className="cursor-pointer gap-2 mx-auto mt-5 mb-5 flex w-fit items-center border-2 border-[#1b88f2] bg-[#001432] px-20 py-2 font-semibold tracking-wider text-sm text-[#d8ecff] shadow-[0_8px_0_#0a4f93] transition-all duration-150 hover:translate-y-[3px] hover:shadow-[0_5px_0_#0a4f93] py-2"><Send size={20} />{state.submitting ? "Sending" : "Send Message"}</button>
                 <div className="h-6 mt-2">
                   {state.succeeded && (
                     <p className="text-center font-semibold text-[#00d18a]">Message sent successfully!</p>
