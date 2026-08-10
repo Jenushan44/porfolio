@@ -3,7 +3,7 @@ import { bebasNeue, ibmPlexMono } from "../fonts";
 
 function HomeLabSection() {
   return (
-    <div className="mx-5 py-16">
+    <div id="homelab-section" className="mx-5 py-16 scroll-mt-20">
       <div className="mx-auto w-full max-w-[1400px]">
 
         <p className={`${bebasNeue.className} blueprint-text-white text-[75px] leading-[0.82] text-white/90 tracking-[0.015em]`}>HOMELAB</p>

@@ -4,7 +4,7 @@ import { bebasNeue } from "../fonts";
 
 function ProjectSection() {
   return (
-    <div id="projects" className="relative py-28">
+    <div id="project-section" className="relative py-28 scroll-mt-5">
       <div className="mx-auto w-full max-w-[1400px] px-6">
 
         <p className={`${bebasNeue.className} blueprint-text-white mb-10 ml-2 mt-5 text-[75px] leading-[0.82] tracking-[0.015em] text-white/90`}>PROJECTS</p>

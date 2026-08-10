@@ -4,7 +4,7 @@ import { bebasNeue, ibmPlexMono } from "../fonts";
 function AboutSection() {
 
   return (
-    <div id="about" className="relative py-28 ">
+    <div id="about-section" className="relative py-28 scroll-mt-5">
       <div className="mx-auto w-full max-w-[1400px] px-6">
 
 

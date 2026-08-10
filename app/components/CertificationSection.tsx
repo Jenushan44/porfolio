@@ -3,7 +3,7 @@ import CertificationCard from "./CertificationCard";
 
 function CertificationSection() {
   return (
-    <div className="mt-10">
+    <div id="certification-section" className="mt-10 scroll-mt-30">
       <div className="mx-auto w-full max-w-[1400px] px-6">
 
         <p className={`${bebasNeue.className} blueprint-text-white text-[75px] leading-[0.82] tracking-[0.015em] text-white/90`}>CERTIFICATIONS</p>

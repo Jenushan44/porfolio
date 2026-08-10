@@ -3,11 +3,11 @@ import { ChevronRight, Dot, Plus, ShieldCheck, MonitorCloud, BrainCog, CodeXml }
 
 function BannerSection() {
   return (
-    <div className="flex h-screen w-full flex-col items-center justify-center overflow-hidden">
+    <div id="home-section" className="flex h-screen w-full flex-col items-center justify-center overflow-hidden">
       <div className="relative text-center">
         <p className={`${bebasNeue.className} blueprint-text-white text-[200px] leading-[0.82] text-white/90 tracking-[0.015em]`}>JENUSHAN</p>
         <p className={`${bebasNeue.className} blueprint-text-blue text-[200px] leading-[0.82] tracking-[0.015em]`}>PREMKUMAR</p>
-        <p className="text-2xl tracking-[5px]">COMPUTER SCIENCE STUDENT</p>
+        <p className="text-2xl tracking-[5px] text-white">COMPUTER SCIENCE STUDENT</p>
       </div>
 
       <div className="flex gap-5 mt-10">

@@ -24,7 +24,7 @@ function ContactSection() {
   }, [state.succeeded, reset]);
 
   return (
-    <div className="mx-5 py-12">
+    <div id="contact-section" className="mx-5 py-12 scroll-mt-5">
 
       <div className="mb-10 flex justify-center">
         <p className={`${bebasNeue.className} blueprint-text-white mx-auto text-[75px] leading-[0.82] tracking-[0.015em] text-white/90`}>CONTACT</p>
@@ -131,13 +131,13 @@ function ContactSection() {
                 <div className="w-full">
                   <div className="px-5">
                     <div className="mt-5 flex w-full gap-10">
-                      <div className="w-1/2">
+                      <div className="w-1/2 text-white">
                         <p>YOUR NAME</p>
                         <input type="text" name="name" required placeholder="John Doe" className="mt-2 w-full border border-[#1b88f2]/30 bg-[#001127] p-3 text-white outline-none transition-all duration-300 placeholder:text-white/30 focus:border-[#1b88f2] focus:bg-[#001432]" />
                       </div>
 
 
-                      <div className="w-1/2">
+                      <div className="w-1/2 text-white">
                         <p>YOUR EMAIL</p>
                         <input type="email" name="email" required placeholder="john@example.com" className="mt-2 w-full border border-[#1b88f2]/30 bg-[#001127] p-3 text-white outline-none transition-all duration-300 placeholder:text-white/30 focus:border-[#1b88f2] focus:bg-[#001432]" />
 
@@ -147,7 +147,7 @@ function ContactSection() {
 
 
                   <div className="w-full">
-                    <div className="px-5">
+                    <div className="px-5 text-white">
                       <p className="mt-5">SUBJECT</p>
 
                       <input type="text" name="subject" required placeholder="Quick question" className="mt-2 w-full border border-[#1b88f2]/30 bg-[#001127] p-3 text-white outline-none transition-all duration-300 placeholder:text-white/30 focus:border-[#1b88f2] focus:bg-[#001432]" />
@@ -156,7 +156,7 @@ function ContactSection() {
 
 
 
-                  <div className="w-full">
+                  <div className="w-full text-white">
                     <p className="mx-5 mt-5">MESSAGE</p>
 
                     <div className="px-5">
