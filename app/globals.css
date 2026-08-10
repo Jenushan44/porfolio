@@ -16,16 +16,6 @@ body {
 .blueprint-bg {
   min-height: 100vh;
   background-color: #001432;
-
-  background-image:
-
-    linear-gradient(rgba(110, 185, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(110, 185, 255, 0.08) 1px, transparent 1px);
-
-  background-size:
-
-    30px 30px,
-    30px 30px;
 }
 
 .blueprint-text-white {
