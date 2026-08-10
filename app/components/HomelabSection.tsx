@@ -107,7 +107,7 @@ function HomeLabSection() {
 
                 <div>
                   <p className="text-sm text-[#1b88f2]">HOST</p>
-                  <p>Dell Precision 5820</p>
+                  <p className="text-white">Dell Precision 5820</p>
                   <p className="text-sm text-white/50">32 GB RAM</p>
                 </div>
 
@@ -122,7 +122,7 @@ function HomeLabSection() {
 
                 <div>
                   <p className="text-sm text-[#1b88f2]">HYPERVISOR</p>
-                  <p>Proxmox VE</p>
+                  <p className="text-white">Proxmox VE</p>
                 </div>
 
               </div>
@@ -136,7 +136,7 @@ function HomeLabSection() {
 
                 <div>
                   <p className="text-sm text-[#1b88f2]">OPERATING SYSTEM</p>
-                  <p>Ubuntu Server 24.04 LTS</p>
+                  <p className="text-white">Ubuntu Server 24.04 LTS</p>
                 </div>
 
               </div>
@@ -150,7 +150,7 @@ function HomeLabSection() {
 
                 <div>
                   <p className="text-sm text-[#1b88f2]">CONTAINERS</p>
-                  <p>Docker + Docker Compose</p>
+                  <p className="text-white">Docker + Docker Compose</p>
                 </div>
 
               </div>
@@ -164,7 +164,7 @@ function HomeLabSection() {
 
                 <div>
                   <p className="text-sm text-[#1b88f2]">DATABASE</p>
-                  <p>PostgreSQL</p>
+                  <p className="text-white">PostgreSQL</p>
                 </div>
 
               </div>

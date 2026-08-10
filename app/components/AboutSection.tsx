@@ -320,7 +320,7 @@ function AboutSection() {
 
 
                 <div className="group/ml relative border-l border-[#1b88f2]/25 px-4 py-4 transition-all duration-300 hover:-translate-y-1 hover:border-[#1b88f2] hover:bg-[#1b88f2]/[0.04]">
-                  <p className="text-sm text-white/65 transition-all duration-300 group-hover/ml:translate-x-2 group-hover/ml:text-white">Machine Learning</p>
+                  <p className="text-sm text-white/65 transition-all duration-300 group-hover/ml:translate-x-2 group-hover/ml:text-white">Web Systems Development</p>
                   <div className="absolute bottom-0 left-0 h-[1px] w-[0px] bg-[#1b88f2] transition-all duration-500 group-hover/ml:w-full" />
                   <div className="absolute right-0 top-0 h-3 w-3 border-r border-t border-[#1b88f2] opacity-0 transition-all duration-300 group-hover/ml:opacity-100" />
                 </div>

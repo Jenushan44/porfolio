@@ -12,11 +12,11 @@ function ProjectCard({ name, image, description, skills, project_url, github_url
       <div className="absolute top-0 bottom-0 right-0 left-0 translate-x-[7px] translate-y-[7px] border border-[#1b88f2]/20 bg-[#0a4f93]/10 transition-all duration-300 group-hover/project:translate-x-[10px] group-hover/project:translate-y-[10px]" />
       <div className="relative flex h-full flex-col border border-[#1b88f2]/50 bg-[#061a33]/95 transition-all duration-300 group-hover/project:-translate-x-[2px] group-hover/project:-translate-y-[2px] group-hover/project:border-[#1b88f2]">
 
+        <div className="relative h-[350px] overflow-hidden bg-[#001127]">
 
-        <div className="relative overflow-hidden">
-
-          <Image className="h-[280px] w-full transition-all duration-500 group-hover/project:scale-[1.01] group-hover/project:brightness-110" src={image} alt={`${name} screenshot`} width={700} height={400} />
-
+          <div className="absolute left-3 right-3 top-3 bottom-3">
+            <Image src={image} alt={`${name} screenshot`} fill className="object-fill transition-all duration-500 group-hover/project:scale-[1.01] group-hover/project:brightness-110" />
+          </div>
 
           <div className="absolute left-3 top-3 h-5 w-5 border-l border-t border-[#1b88f2]" />
           <div className="absolute right-3 top-3 h-5 w-5 border-r border-t border-[#1b88f2]" />
