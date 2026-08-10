@@ -237,7 +237,7 @@ function HomeLabSection() {
           <div className="relative border-2 border-[#1b88f2] bg-[#001432] p-5 transition-all duration-300 group-hover/services:-translate-x-[2px] group-hover/services:-translate-y-[2px]">
 
             <p className="text-lg text-[#1b88f2]">SERVICES & INFRASTRUCTURE</p>
-            <div className="mt-5 flex gap-4">
+            <div className="mt-5 flex gap-4 text-white/80">
 
 
               <div className="flex-1 border border-[#1b88f2]/40 bg-[#001432] p-5 transition-all duration-200 hover:-translate-y-[5px] hover:border-[#1b88f2] hover:shadow-[5px_5px_0_#0a4f93]">

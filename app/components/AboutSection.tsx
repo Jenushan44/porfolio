@@ -11,7 +11,7 @@ function AboutSection() {
         <p className={`${bebasNeue.className} blueprint-text-white text-[85px] leading-[0.82] tracking-[0.015em] text-white/90`}>ABOUT ME</p>
 
         {/*Named group so that hover effects only apply to the About card */}
-        <div className="group/about relative mt-12 border border-[#1b88f2]/70 bg-[#001127] shadow-[9px_9px_0_rgba(10,79,147,0.6)] transition-all duration-300 hover:-translate-x-[3px] hover:-translate-y-[3px] hover:border-[#1b88f2] hover:shadow-[13px_13px_0_rgba(10,79,147,0.72)]">
+        <div className="group/about relative mt-12 border border-[#1b88f2]/70 bg-[#001127] shadow-[9px_9px_0_rgba(10,79,147,0.6)] transition-all duration-300 hover:border-[#1b88f2] hover:shadow-[13px_13px_0_rgba(10,79,147,0.72)]">
 
           {/*Corner brackets: top-left, top-right, bottom-left, bottom-right */}
           <div className="absolute -left-3 -top-3 h-8 w-8 border-l-2 border-t-2 border-[#1b88f2] transition-all duration-300 group-hover/about:-left-5 group-hover/about:-top-5" />
@@ -186,7 +186,7 @@ function AboutSection() {
 
                 <div className="group/school flex items-start gap-6">
 
-                  <div className="flex h-16 w-16 items-center justify-center border border-[#1b88f2]/50 bg-[#001432] transition-all duration-300 group-hover/school:-translate-y-1 group-hover/school:border-[#1b88f2] group-hover/school:shadow-[4px_4px_0_#0a4f93]">
+                  <div className="flex h-16 w-16 items-center justify-center border border-[#1b88f2]/50 bg-[#001432] transition-all duration-300 group-hover/school:border-[#1b88f2] group-hover/school:shadow-[4px_4px_0_#0a4f93]">
                     <GraduationCap size={32} className="text-[#1b88f2] transition-all duration-300 group-hover/school:scale-110" />
                   </div>
 
@@ -201,7 +201,7 @@ function AboutSection() {
                       <p className="text-sm text-white/55">Toronto, Ontario, Canada</p>
                     </div>
 
-                    <div className="mt-5 border-t border-[#1b88f2]/0 opacity-0 transition-all duration-500 group-hover/school:max-h-24 group-hover/school:border-[#1b88f2]/20 group-hover/school:pt-4 group-hover/school:opacity-100">
+                    <div className="mt-5 border-t border-[#1b88f2]/0 pt-4 opacity-0 transition-all duration-500 group-hover/school:border-[#1b88f2]/20 group-hover/school:opacity-100">
 
                       <div className="grid grid-cols-3 gap-5">
 

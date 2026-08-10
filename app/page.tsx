@@ -9,13 +9,14 @@ import CertificationSection from "./components/CertificationSection";
 import ContactSection from "./components/ContactSection";
 import CursorGrid from "./components/CursorGrid";
 import ScrollReveal from "./components/ScrollReveal";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
     <div className="relative min-h-screen">
 
       <div className="absolute bottom-0 left-0 right-0 top-0 z-10">
-        <CursorGrid cellSize={30} color="#1b88f2" radius={120} falloff="smooth" holdTime={200} fadeDuration={600} lineWidth={1.25} maxOpacity={0.8} fillOpacity={0} gridOpacity={0.12} cellRadius={0} clickPulse={true} pulseSpeed={2500} />
+        <CursorGrid cellSize={30} color="#1b88f2" radius={120} falloff="smooth" holdTime={100} fadeDuration={300} lineWidth={1.25} maxOpacity={0.8} fillOpacity={0} gridOpacity={0.12} cellRadius={0} clickPulse={true} pulseSpeed={2500} />
       </div>
 
       <div className="relative z-10">
@@ -65,6 +66,8 @@ export default function Home() {
             </ScrollReveal>
           </div>
         </main>
+        <Footer />
+
       </div>
     </div>
   );
