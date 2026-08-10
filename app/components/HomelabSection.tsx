@@ -1,12 +1,20 @@
 import { Server, Box, Database, Container, Terminal, Cpu, HardDrive, ArrowRight, Circle, Globe } from "lucide-react";
-import { bebasNeue, ibmPlexMono } from "../fonts";
+import { ibmPlexMono, barlowCondensed } from "../fonts";
 
 function HomeLabSection() {
   return (
     <div id="homelab-section" className="mx-5 py-16 scroll-mt-20">
       <div className="mx-auto w-full max-w-[1400px]">
 
-        <p className={`${bebasNeue.className} blueprint-text-white text-[75px] leading-[0.82] text-white/90 tracking-[0.015em]`}>HOMELAB</p>
+        <div className="group relative mb-10">
+          <p className={`${barlowCondensed.className} pointer-events-none absolute -right-2 -top-8 text-[150px] font-semibold leading-none text-[#1b88f2] opacity-[0.06] transition-opacity duration-300 group-hover:opacity-[0.4]`}>05</p>
+
+          <div className="relative">
+            <p className={`${barlowCondensed.className} text-[90px] font-semibold leading-[0.8] text-white transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#dbeeff] group-hover:drop-shadow-[0_0_10px_rgba(27,136,242,0.35)]`}>Homelab</p>
+            <p className={`${ibmPlexMono.className} mt-4 text-sm text-white/40`}>My homelab setup for learning more about servers, networking, and self-hosting.</p>
+            <div className="mt-5 h-[1px] w-20 bg-[#1b88f2] transition-all duration-500 group-hover:w-48" />
+          </div>
+        </div>
 
         <p className={`${ibmPlexMono.className} mt-3 text-white/60`}>My personal lab for self-hosting, learning, and building.</p>
 

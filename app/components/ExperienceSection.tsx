@@ -1,13 +1,21 @@
 import { ChevronUp, ChevronDown } from "lucide-react";
 import ExperienceCard from "./ExperienceCard";
-import { bebasNeue } from "../fonts";
+import { ibmPlexMono, barlowCondensed } from "../fonts";
 
 function ExperienceSection() {
   return (
     <div id="experience-section" className="relative py-28 scroll-mt-5">
       <div className="mx-auto w-full max-w-[1400px] px-6">
 
-        <p className={`${bebasNeue.className} blueprint-text-white mb-10 ml-2 mt-5 text-[75px] leading-[0.82] tracking-[0.015em] text-white/90`}>EXPERIENCE</p>
+        <div className="group relative mb-10">
+          <p className={`${barlowCondensed.className} pointer-events-none absolute -right-2 -top-8 text-[150px] font-semibold leading-none text-[#1b88f2] opacity-[0.06] transition-opacity duration-300 group-hover:opacity-[0.4]`}>02</p>
+
+          <div className="relative">
+            <p className={`${barlowCondensed.className} text-[90px] font-semibold leading-[0.8] text-white transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#dbeeff] group-hover:drop-shadow-[0_0_10px_rgba(27,136,242,0.35)]`}>Experience</p>
+            <p className={`${ibmPlexMono.className} mt-4 text-sm text-white/40`}>My previous internships and work experience in tech.</p>
+            <div className="mt-5 h-[1px] w-20 bg-[#1b88f2] transition-all duration-500 group-hover:w-48" />
+          </div>
+        </div>
 
         <div className="relative mt-20">
           <ChevronUp size={35} className="absolute left-1/2 top-[-78px] -translate-x-1/2 text-[#1b88f2]/70" />

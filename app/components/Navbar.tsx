@@ -58,7 +58,7 @@ function Navbar() {
           </div>
         </div>
 
-        <div className={`${ibmPlexMono.className} hidden lg:flex items-center gap-2 text-[10px] text-[#1b88f2]/60`}>
+        <div className={`${ibmPlexMono.className} hidden lg:flex items-center gap-2 text-[12px] text-[#1b88f2]/60`}>
           <p>SYSTEM ONLINE</p>
 
           <div className="h-[5px] w-[5px] animate-pulse rounded-full bg-[#00d18a] shadow-[0_0_8px_rgba(0,209,138,0.8)]" />

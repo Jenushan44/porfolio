@@ -1,13 +1,22 @@
 import { ChevronRight } from "lucide-react";
 import ProjectCard from "./ProjectCard";
-import { bebasNeue } from "../fonts";
+import { ibmPlexMono, barlowCondensed } from "../fonts";
 
 function ProjectSection() {
   return (
     <div id="project-section" className="relative py-28 scroll-mt-5">
       <div className="mx-auto w-full max-w-[1400px] px-6">
 
-        <p className={`${bebasNeue.className} blueprint-text-white mb-10 ml-2 mt-5 text-[75px] leading-[0.82] tracking-[0.015em] text-white/90`}>PROJECTS</p>
+        <div className="group relative mb-10">
+          <p className={`${barlowCondensed.className} pointer-events-none absolute -right-2 -top-8 text-[150px] font-semibold leading-none text-[#1b88f2] opacity-[0.06] transition-opacity duration-300 group-hover:opacity-[0.4]`}>03</p>
+
+          <div className="relative">
+            <p className={`${barlowCondensed.className} text-[90px] font-semibold leading-[0.8] text-white transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#dbeeff] group-hover:drop-shadow-[0_0_10px_rgba(27,136,242,0.35)]`}>Projects</p>
+            <p className={`${ibmPlexMono.className} mt-4 text-sm text-white/40`}>Some of the software projects I’ve worked on in my own time.</p>
+            <div className="mt-5 h-[1px] w-20 bg-[#1b88f2] transition-all duration-500 group-hover:w-48" />
+          </div>
+        </div>
+
         <div className="mt-14 grid grid-cols-1 gap-10 md:grid-cols-2">
 
           <ProjectCard

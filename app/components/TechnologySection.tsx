@@ -1,8 +1,8 @@
 "use client";
 
 import { OrbitingCircles } from "@/app/components/ui/orbiting-circles";
-import { bebasNeue, ibmPlexMono } from "../fonts";
 import { Code2 } from "lucide-react"
+import { bebasNeue, ibmPlexMono, barlowCondensed } from "../fonts";
 
 type Technology = {
   name: string;
@@ -38,7 +38,7 @@ function TechnologyIcon({ technology }: { technology: Technology }) {
 
       <img src={technology.icon} alt={technology.name} className="relative z-10 h-12 w-12 transition-all duration-300 group-hover/tech:-translate-x-[2px] group-hover/tech:-translate-y-[2px]" />
 
-      <p className={`${ibmPlexMono.className} absolute -bottom-8 z-20 bg-[#001127] px-3 py-1.5 text-sm text-[#1b88f2] opacity-0 transition-all duration-300 group-hover/tech:-translate-y-1 group-hover/tech:opacity-100`}>{technology.name}</p>
+      <p className={`${ibmPlexMono.className} absolute text-center -bottom-8 z-20 bg-[#001127] px-3 py-1.5 text-sm text-[#1b88f2] opacity-0 transition-all duration-300 group-hover/tech:-translate-y-1 group-hover/tech:opacity-100`}>{technology.name}</p>
 
     </div>
   );
@@ -49,7 +49,15 @@ function TechnologiesSection() {
     <div id="technology-section" className="relative py-28 scroll-mt-5">
       <div className="mx-auto w-full max-w-[1400px] px-6">
 
-        <p className={`${bebasNeue.className} blueprint-text-white text-[75px] leading-[0.82] tracking-[0.015em] text-white/90`}>TECHNOLOGIES</p>
+        <div className="group relative mb-10">
+          <p className={`${barlowCondensed.className} pointer-events-none absolute -right-2 -top-8 text-[150px] font-semibold leading-none text-[#1b88f2] opacity-[0.06] transition-opacity duration-300 group-hover:opacity-[0.4]`}>04</p>
+
+          <div className="relative">
+            <p className={`${barlowCondensed.className} text-[90px] font-semibold leading-[0.8] text-white transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#dbeeff] group-hover:drop-shadow-[0_0_10px_rgba(27,136,242,0.35)]`}>Technologies</p>
+            <p className={`${ibmPlexMono.className} mt-4 text-sm text-white/40`}>The languages, frameworks, and tools I have worked with.</p>
+            <div className="mt-5 h-[1px] w-20 bg-[#1b88f2] transition-all duration-500 group-hover:w-48" />
+          </div>
+        </div>
 
         <div className="relative mt-12 flex h-[800px] items-center justify-center">
 
@@ -76,13 +84,13 @@ function TechnologiesSection() {
 
           </div>
 
-          <OrbitingCircles radius={210} duration={24} iconSize={100} path>
+          <OrbitingCircles radius={210} duration={24} iconSize={100} path pathSpeed={50}>
             {innerTechnologies.map((technology) => (
               <TechnologyIcon key={technology.name} technology={technology} />
             ))}
           </OrbitingCircles>
 
-          <OrbitingCircles radius={350} duration={38} iconSize={100} reverse path>
+          <OrbitingCircles radius={350} duration={38} iconSize={100} reverse path pathSpeed={50}>
             {outerTechnologies.map((technology) => (
               <TechnologyIcon key={technology.name} technology={technology} />
             ))}

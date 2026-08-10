@@ -1,5 +1,5 @@
 import { bebasNeue, ibmPlexMono } from "../fonts";
-import { ChevronRight, Dot, Plus, ShieldCheck, MonitorCloud, BrainCog, CodeXml } from "lucide-react"
+import { ChevronRight, Download, Plus, ShieldCheck, MonitorCloud, BrainCog, CodeXml } from "lucide-react"
 
 function BannerSection() {
   return (
@@ -11,8 +11,8 @@ function BannerSection() {
       </div>
 
       <div className="flex gap-5 mt-10">
-        <button className={`${ibmPlexMono.className} cursor-pointer flex items-center gap-2 border border-blue-400/60 bg-blue-950/40 px-7 py-3 text-blue-300 transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:text-white hover:shadow-[0_0_18px_rgba(59,130,246,0.65)]`}><ChevronRight />VIEW MY WORK</button>
-        <button className={`${ibmPlexMono.className} cursor-pointer flex items-center gap-2 border border-slate-400/50 bg-transparent px-7 py-3 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:text-blue-300 hover:shadow-[0_0_18px_rgba(59,130,246,0.65)]`}><ChevronRight />GET IN TOUCH</button>
+        <a href="#contact-section" className={`${ibmPlexMono.className} cursor-pointer flex items-center gap-2 border border-blue-400/60 bg-blue-950/40 px-7 py-3 text-blue-300 transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:text-white hover:shadow-[0_0_18px_rgba(59,130,246,0.65)]`}><ChevronRight />GET IN TOUCH</a>
+        <button className={`${ibmPlexMono.className} cursor-pointer flex items-center gap-2 border border-slate-400/50 bg-transparent px-5 py-3 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:text-blue-300 hover:shadow-[0_0_18px_rgba(59,130,246,0.65)]`}><Download />DOWNLOAD RESUME</button>
       </div>
       <div className="mt-10">
         <p className={`${ibmPlexMono.className} flex justify-center mb-5 text-[20px] text-[#0671fb]`}>CURRENT FOCUS</p>

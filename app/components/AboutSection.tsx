@@ -1,5 +1,5 @@
 import { GraduationCap, MapPin, Star, Code2, Shield, Brain, Server, } from "lucide-react";
-import { bebasNeue, ibmPlexMono } from "../fonts";
+import { bebasNeue, ibmPlexMono, barlowCondensed } from "../fonts";
 
 function AboutSection() {
 
@@ -7,8 +7,15 @@ function AboutSection() {
     <div id="about-section" className="relative py-28 scroll-mt-5">
       <div className="mx-auto w-full max-w-[1400px] px-6">
 
+        <div className="group relative mb-10">
+          <p className={`${barlowCondensed.className} pointer-events-none absolute -right-2 -top-8 text-[150px] font-semibold leading-none text-[#1b88f2] opacity-[0.06] transition-opacity duration-300 group-hover:opacity-[0.4]`}>01</p>
 
-        <p className={`${bebasNeue.className} blueprint-text-white text-[85px] leading-[0.82] tracking-[0.015em] text-white/90`}>ABOUT ME</p>
+          <div className="relative">
+            <p className={`${barlowCondensed.className} text-[90px] font-semibold leading-[0.8] text-white transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#dbeeff] group-hover:drop-shadow-[0_0_10px_rgba(27,136,242,0.35)]`}>ABOUT ME</p>
+            <p className={`${ibmPlexMono.className} mt-4 text-sm text-white/40`}>Computer Science student with interests in software development, AI, and cybersecurity.</p>
+            <div className="mt-5 h-[1px] w-20 bg-[#1b88f2] transition-all duration-500 group-hover:w-48" />
+          </div>
+        </div>
 
         {/*Named group so that hover effects only apply to the About card */}
         <div className="group/about relative mt-12 border border-[#1b88f2]/70 bg-[#001127] shadow-[9px_9px_0_rgba(10,79,147,0.6)] transition-all duration-300 hover:border-[#1b88f2] hover:shadow-[13px_13px_0_rgba(10,79,147,0.72)]">
