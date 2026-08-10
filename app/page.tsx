@@ -11,9 +11,9 @@ import CursorGrid from "./components/CursorGrid";
 
 export default function Home() {
   return (
-    <div className="text-white">
+    <div className="text-white z-50">
 
-      <div className="pointer-events-none fixed inset-0 z-11">
+      <div className="pointer-events-none fixed inset-0 z-10">
         <CursorGrid cellSize={30} color="#1b88f2" radius={120} falloff="smooth" holdTime={200} fadeDuration={600} lineWidth={2} maxOpacity={1} fillOpacity={0} gridOpacity={0.12} cellRadius={0} clickPulse={true} pulseSpeed={2000} />
       </div>
 

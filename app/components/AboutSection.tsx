@@ -4,7 +4,7 @@ import { bebasNeue, ibmPlexMono } from "../fonts";
 function AboutSection() {
 
   return (
-    <div id="about" className="relative py-28">
+    <div id="about" className="relative py-28 ">
       <div className="mx-auto w-full max-w-[1400px] px-6">
 
 
@@ -26,7 +26,7 @@ function AboutSection() {
               <div className="group/who relative border-b border-[#1b88f2]/30 p-8 lg:border-b-0 lg:border-r">
                 <p className={`${bebasNeue.className} absolute right-8 top-3 text-[170px] text-[#1b88f2]/0 transition-all duration-500 group-hover/who:-translate-x-3 group-hover/who:text-[#1b88f2]/[0.05]`}>JP</p>
 
-                <div className="relative z-10 flex items-center gap-3">
+                <div className="relative flex items-center gap-3">
                   <p className={`${ibmPlexMono.className} text-[12px] text-[#1b88f2]/45`}>01</p>
 
                   <p className={`${ibmPlexMono.className} text-lg text-[#1b88f2]`}>// WHO I AM</p>
@@ -37,7 +37,7 @@ function AboutSection() {
                   </div>
                 </div>
 
-                <div className="relative z-10 mt-10">
+                <div className="relative mt-10">
                   <p className="text-3xl font-semibold text-white transition-all duration-300 group-hover/who:translate-x-2">Jenushan Premkumar</p>
 
                   <p className={`${ibmPlexMono.className} mt-2 text-sm text-[#1b88f2]`}>COMPUTER SCIENCE / TMU</p>

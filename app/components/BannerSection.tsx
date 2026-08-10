@@ -3,12 +3,11 @@ import { ChevronRight, Dot, Plus, ShieldCheck, MonitorCloud, BrainCog, CodeXml }
 
 function BannerSection() {
   return (
-    <section className="blueprint-bg flex h-screen w-full flex-col items-center justify-center overflow-hidden">
+    <div className="flex h-screen w-full flex-col items-center justify-center overflow-hidden">
       <div className="relative text-center">
         <p className={`${bebasNeue.className} blueprint-text-white text-[200px] leading-[0.82] text-white/90 tracking-[0.015em]`}>JENUSHAN</p>
         <p className={`${bebasNeue.className} blueprint-text-blue text-[200px] leading-[0.82] tracking-[0.015em]`}>PREMKUMAR</p>
         <p className="text-2xl tracking-[5px]">COMPUTER SCIENCE STUDENT</p>
-        <p>testing</p>
       </div>
 
       <div className="flex gap-5 mt-10">
@@ -27,7 +26,7 @@ function BannerSection() {
           <p className="flex gap-3 justify-center"><MonitorCloud /> INFRASTRUCUTRE</p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
