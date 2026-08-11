@@ -39,8 +39,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-app/components/ui/
-app/components/CursorGrid.css
-app/components/CursorGrid.jsx
-app/components/ScrollReveal.tsx

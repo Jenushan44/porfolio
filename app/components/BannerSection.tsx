@@ -16,7 +16,9 @@ function BannerSection() {
 
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 mt-10">
         <a href="#contact-section" className={`${ibmPlexMono.className} cursor-pointer flex items-center justify-center gap-2 border border-blue-400/60 bg-blue-950/40 px-5 sm:px-7 py-3 text-sm sm:text-base text-blue-300 transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:text-white hover:shadow-[0_0_18px_rgba(59,130,246,0.65)]`}><ChevronRight />GET IN TOUCH</a>
-        <button className={`${ibmPlexMono.className} cursor-pointer flex items-center justify-center gap-2 border border-slate-400/50 bg-transparent px-5 py-3 text-sm sm:text-base text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:text-blue-300 hover:shadow-[0_0_18px_rgba(59,130,246,0.65)]`}><Download />DOWNLOAD RESUME</button>
+        <a href="/resume/Resume-JenushanPremkumar.pdf" download className={`${ibmPlexMono.className} cursor-pointer flex items-center gap-2 border border-slate-400/50 bg-transparent px-5 py-3 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:text-blue-300 hover:shadow-[0_0_18px_rgba(59,130,246,0.65)]`}>
+          <Download />DOWNLOAD RESUME
+        </a>
       </div>
       <div className="mt-10">
         <p className={`${ibmPlexMono.className} flex justify-center mb-5 text-[16px] sm:text-[18px] lg:text-[20px] text-[#0671fb]`}>CURRENT FOCUS</p>

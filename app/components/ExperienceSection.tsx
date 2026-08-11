@@ -27,7 +27,7 @@ function ExperienceSection() {
             <div className="group/atj relative ml-10 flex w-[calc(100%-2.5rem)] justify-start lg:ml-0 lg:mr-auto lg:w-1/2 lg:justify-end lg:pr-20">
               <div className="absolute right-0 top-1/2 hidden h-[2px] w-20 -translate-y-1/2 bg-[#1b88f2]/35 transition-all duration-300 group-hover/atj:bg-[#1b88f2] lg:block" />
               <div className="absolute left-[-31px] top-1/2 z-20 h-3 w-3 -translate-y-1/2 rotate-45 border border-[#1b88f2] bg-[#061a33] transition-all duration-300 group-hover/atj:scale-125 group-hover/atj:bg-[#1b88f2] group-hover/atj:shadow-[0_0_12px_rgba(27,136,242,0.7)] lg:left-auto lg:right-[-6px]" />
-              <ExperienceCard date="Mar 2026 - May 2026" title="Web Development Intern" company_name="ATJ Consulting Inc." bullets={["Built responsive frontend features using React and Next.js, including maps, filters, deal cards, and data-driven UI components.", "Tested frontend changes, debugged user-facing issues, and made updates based on stakeholder feedback.", "Improved page layouts, component behavior, and mobile responsiveness for a smoother user experience.",]} skills={["React", "Next.js", "JavaScript", "Git"]} />
+              <ExperienceCard date="Mar 2026 - May 2026" title="Web Development Intern" company_name="ATJ Consulting Inc." bullets={["Built responsive frontend features using React and Next.js, including maps, filters, deal cards, and data-driven UI components.", "Tested frontend changes, debugged user-facing issues, and made updates based on team feedback.", "Improved page layouts, component behavior, and mobile responsiveness for a smoother user experience.",]} skills={["React", "Next.js", "JavaScript", "Git"]} />
             </div>
 
 

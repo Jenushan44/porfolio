@@ -20,7 +20,7 @@ function ExperienceCard({ date, title, company_name, bullets, skills, }: CardPro
 
         <div className="mt-5 text-white/75">
           {bullets.map((bullet) => (
-            <p key={bullet} className={`${ibmPlexMono.className} flex items-start gap-1`}><Dot size={50} className="-mt-[11px]" />{bullet}</p>
+            <p key={bullet} className={`${ibmPlexMono.className} flex items-start gap-1`}><Dot size={50} className="-mt-[11px] shrink-0" />{bullet}</p>
 
           ))}
         </div>

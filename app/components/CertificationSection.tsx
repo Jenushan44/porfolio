@@ -19,32 +19,32 @@ function CertificationSection() {
         <div className="mt-10 grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-2">
 
           <CertificationCard
-            image_url="/images/python-for-everybody-certification.png"
-            pdf_url="/images/python-for-everybody.pdf"
+            image_url="/certifications/python-for-everybody-certification.png"
+            pdf_url="/certifications/python-for-everybody.pdf"
             name="Python for Everybody"
             issuer="University of Michigan"
             year="Jul 15, 2025"
           />
 
           <CertificationCard
-            image_url="/images/data-structures-and-algorithms-analysis-certification.png"
-            pdf_url="/images/data-structures-and-algorithm-analysis-certification.pdf"
+            image_url="/certifications/data-structures-and-algorithms-analysis-certification.png"
+            pdf_url="/certifications/data-structures-and-algorithm-analysis-certification.pdf"
             name="Foundations of Data Structures and Algorithm Analysis"
             issuer="Packt"
             year="Aug 12, 2025"
           />
 
           <CertificationCard
-            image_url="/images/databases-and-sql-for-data-science-certification.png"
-            pdf_url="/images/databases-and-sql-for-data-science-with-python.pdf"
+            image_url="/certifications/databases-and-sql-for-data-science-certification.png"
+            pdf_url="/certifications/databases-and-sql-for-data-science-with-python.pdf"
             name="Databases and SQL for Data Science with Python"
             issuer="IBM"
             year="Jul 29, 2025"
           />
 
           <CertificationCard
-            image_url="/images/prompt-engineering-certification.png"
-            pdf_url="/images/prompt-engineering-certification.pdf"
+            image_url="/certifications/prompt-engineering-certification.png"
+            pdf_url="/certifications/prompt-engineering-certification.pdf"
             name="Prompt Engineering Certification"
             issuer="IBM"
             year="Aug 14, 2025"
