@@ -24,14 +24,13 @@ function ContactSection() {
   }, [state.succeeded, reset]);
 
   return (
-    <div id="contact-section" className="mx-5 py-12 scroll-mt-5">
-      <div className="mx-auto w-full max-w-[1400px] px-6">
-
+    <div id="contact-section" className="mx-4 py-16 sm:mx-5 sm:py-20 lg:py-28 scroll-mt-5">
+      <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6">
         <div className="group relative mb-10">
-          <p className={`${barlowCondensed.className} pointer-events-none absolute -right-2 -top-8 text-[150px] font-semibold leading-none text-[#1b88f2] opacity-[0.06] transition-opacity duration-300 group-hover:opacity-[0.4]`}>07</p>
+          <p className={`${barlowCondensed.className} pointer-events-none absolute -right-2 -top-8 text-[100px] sm:text-[120px] lg:text-[150px] font-semibold leading-none text-[#1b88f2] opacity-[0.06] transition-opacity duration-300 group-hover:opacity-[0.4]`}>07</p>
 
           <div className="relative">
-            <p className={`${barlowCondensed.className} text-[90px] font-semibold leading-[0.8] text-white transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#dbeeff] group-hover:drop-shadow-[0_0_10px_rgba(27,136,242,0.35)]`}>Contact</p>
+            <p className={`${barlowCondensed.className} text-[60px] sm:text-[70px] md:text-[80px] lg:text-[90px] font-semibold leading-[0.8] text-white transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#dbeeff] group-hover:drop-shadow-[0_0_10px_rgba(27,136,242,0.35)]`}>Contact</p>
             <p className={`${ibmPlexMono.className} mt-4 text-sm text-white/40`}>Ways to get in touch with me.</p>
             <div className="mt-5 h-[1px] w-20 bg-[#1b88f2] transition-all duration-500 group-hover:w-48" />
           </div>
@@ -42,17 +41,15 @@ function ContactSection() {
           <div className="absolute top-0 bottom-0 right-0 left-0 translate-x-[7px] translate-y-[7px] border border-[#1b88f2]/20 bg-[#0a4f93]/10 transition-all duration-300 group-hover/contact:translate-x-[10px] group-hover/contact:translate-y-[10px]" />
           <div className="relative flex border-2 border-[#1b88f2] bg-[#001432] pb-5 transition-all duration-300 group-hover/contact:-translate-x-[2px] group-hover/contact:-translate-y-[2px]">
 
-            <div className="flex w-full">
-              <div className="mx-5 mt-5 w-1/3">
+            <div className="flex w-full flex-col lg:flex-row">
+              <div className="mx-5 mt-5 w-auto lg:w-1/3">
 
                 <p className="text-lg font-semibold text-[#1b88f2]">GET IN TOUCH</p>
 
                 <div className="mb-5 h-[1px] w-[50%] bg-[#1b88f2]" />
 
                 <div className="mb-7 text-white/70">
-                  <p>I'm always open to discussing new opportunities,</p>
-                  <p>interesting projects or just connecting.</p>
-                  <p>Feel free to reach out!</p>
+                  <p>I'm always open to discussing new opportunities, interesting projects or just connecting. Feel free to reach out!</p>
                 </div>
 
 
@@ -64,7 +61,7 @@ function ContactSection() {
 
                   <div className="flex flex-col">
                     <p className="text-lg font-semibold text-[#1b88f2]">EMAIL</p>
-                    <p className="text-white/70">jenushanpk@gmail.com</p>
+                    <p className="break-all text-sm text-white/70 sm:text-base">jenushanpk@gmail.com</p>
                   </div>
 
                 </div>
@@ -79,7 +76,7 @@ function ContactSection() {
 
                   <div className="flex flex-col">
                     <p className="text-lg font-semibold text-[#1b88f2]">LINKEDIN</p>
-                    <p className="text-white/70">linkedin.com/in/jenushan-premkumar/</p>
+                    <p className="break-all text-sm text-white/70 sm:text-base">linkedin.com/in/jenushan-premkumar/</p>
                   </div>
 
                 </a>
@@ -125,10 +122,10 @@ function ContactSection() {
 
 
 
-              <div className="my-2 mt-5 w-[1px] self-stretch bg-[#1b88f2]/60" />
+              <div className="mx-5 my-6 h-[1px] bg-[#1b88f2]/60 lg:mx-0 lg:my-2 lg:mt-5 lg:h-auto lg:w-[1px] lg:self-stretch" />
 
 
-              <form ref={formRef} onSubmit={handleSubmit} className="w-2/3">
+              <form ref={formRef} onSubmit={handleSubmit} className="w-full lg:w-2/3">
 
                 <div className="flex-1">
 
@@ -138,14 +135,14 @@ function ContactSection() {
 
                   <div className="w-full">
                     <div className="px-5">
-                      <div className="mt-5 flex w-full gap-10">
-                        <div className="w-1/2 text-white">
+                      <div className="mt-5 flex w-full flex-col gap-5 sm:flex-row sm:gap-10">
+                        <div className="w-full text-white sm:w-1/2">
                           <p>YOUR NAME</p>
                           <input type="text" name="name" required placeholder="John Doe" className="mt-2 w-full border border-[#1b88f2]/30 bg-[#001127] p-3 text-white outline-none transition-all duration-300 placeholder:text-white/30 focus:border-[#1b88f2] focus:bg-[#001432]" />
                         </div>
 
 
-                        <div className="w-1/2 text-white">
+                        <div className="w-full text-white sm:w-1/2">
                           <p>YOUR EMAIL</p>
                           <input type="email" name="email" required placeholder="john@example.com" className="mt-2 w-full border border-[#1b88f2]/30 bg-[#001127] p-3 text-white outline-none transition-all duration-300 placeholder:text-white/30 focus:border-[#1b88f2] focus:bg-[#001432]" />
 
@@ -172,7 +169,7 @@ function ContactSection() {
                       </div>
                     </div>
 
-                    <button type="submit" disabled={state.submitting} className="mx-auto mb-5 mt-5 flex w-fit cursor-pointer items-center gap-2 border-2 border-[#1b88f2] bg-[#001432] px-20 py-2 text-sm font-semibold uppercase tracking-wider text-[#d8ecff] shadow-[0_8px_0_#0a4f93] transition-all duration-150 hover:translate-y-[3px] hover:shadow-[0_5px_0_#0a4f93] active:translate-y-[8px] active:shadow-none disabled:cursor-not-allowed disabled:opacity-50">
+                    <button type="submit" disabled={state.submitting} className="mx-auto mb-5 mt-5 flex w-full cursor-pointer items-center justify-center gap-2 border-2 border-[#1b88f2] bg-[#001432] px-10 py-2 text-sm font-semibold uppercase tracking-wider text-[#d8ecff] shadow-[0_8px_0_#0a4f93] transition-all duration-150 hover:translate-y-[3px] hover:shadow-[0_5px_0_#0a4f93] active:translate-y-[8px] active:shadow-none disabled:cursor-not-allowed disabled:opacity-50 sm:w-fit sm:px-20">
                       <Send size={20} />{state.submitting ? "Sending" : "Send Message"}
                     </button>
 

@@ -3,14 +3,14 @@ import { ibmPlexMono, barlowCondensed } from "../fonts";
 
 function HomeLabSection() {
   return (
-    <div id="homelab-section" className="mx-5 py-16 scroll-mt-20">
+    <div id="homelab-section" className="mx-4 py-16 sm:mx-5 sm:py-20 lg:py-28 scroll-mt-20">
       <div className="mx-auto w-full max-w-[1400px]">
 
         <div className="group relative mb-10">
-          <p className={`${barlowCondensed.className} pointer-events-none absolute -right-2 -top-8 text-[150px] font-semibold leading-none text-[#1b88f2] opacity-[0.06] transition-opacity duration-300 group-hover:opacity-[0.4]`}>05</p>
+          <p className={`${barlowCondensed.className} pointer-events-none absolute -right-2 -top-8 text-[100px] sm:text-[120px] lg:text-[150px] font-semibold leading-none text-[#1b88f2] opacity-[0.06] transition-opacity duration-300 group-hover:opacity-[0.4]`}>05</p>
 
           <div className="relative">
-            <p className={`${barlowCondensed.className} text-[90px] font-semibold leading-[0.8] text-white transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#dbeeff] group-hover:drop-shadow-[0_0_10px_rgba(27,136,242,0.35)]`}>Homelab</p>
+            <p className={`${barlowCondensed.className} text-[60px] sm:text-[70px] md:text-[80px] lg:text-[90px] font-semibold leading-[0.8] text-white transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#dbeeff] group-hover:drop-shadow-[0_0_10px_rgba(27,136,242,0.35)]`}>Homelab</p>
             <p className={`${ibmPlexMono.className} mt-4 text-sm text-white/40`}>My homelab setup for learning more about servers, networking, and self-hosting.</p>
             <div className="mt-5 h-[1px] w-20 bg-[#1b88f2] transition-all duration-500 group-hover:w-48" />
           </div>
@@ -19,15 +19,15 @@ function HomeLabSection() {
         <p className={`${ibmPlexMono.className} mt-3 text-white/60`}>My personal lab for self-hosting, learning, and building.</p>
 
 
-        <div className="mt-10 flex gap-5">
+        <div className="mt-10 flex flex-col gap-6 lg:flex-row lg:gap-5">
 
 
 
-          <div className="group/architecture relative w-[40%]">
+          <div className="group/architecture relative w-full lg:w-[40%]">
 
             <div className="absolute top-0 bottom-0 right-0 left-0 translate-x-[7px] translate-y-[7px] border border-[#1b88f2]/20 bg-[#0a4f93]/10 transition-all duration-300 group-hover/architecture:translate-x-[10px] group-hover/architecture:translate-y-[10px]" />
 
-            <div className="relative h-full border-2 border-[#1b88f2] bg-[#001432] p-5 transition-all duration-300 group-hover/architecture:-translate-x-[2px] group-hover/architecture:-translate-y-[2px]">
+            <div className="relative h-full border-2 border-[#1b88f2] bg-[#001432] p-4 sm:p-5 transition-all duration-300 group-hover/architecture:-translate-x-[2px] group-hover/architecture:-translate-y-[2px]">
 
               <p className="text-lg text-[#1b88f2]">LAB ARCHITECTURE</p>
 
@@ -63,19 +63,19 @@ function HomeLabSection() {
                   <div className="h-8 w-[1px] bg-[#1b88f2]" />
                 </div>
 
-                <div className="flex w-full justify-center gap-5">
+                <div className="flex w-full flex-col justify-center gap-4 sm:flex-row sm:gap-5">
 
-                  <div className="w-[150px] border-2 border-[#1b88f2] bg-[#001432] p-4 text-center shadow-[3px_3px_0_#0a4f93]">
+                  <div className="w-full sm:w-[150px] border-2 border-[#1b88f2] bg-[#001432] p-4 text-center shadow-[3px_3px_0_#0a4f93]">
                     <p className="text-[#1b88f2]">DOCKER</p>
                     <p className="mt-1 text-xs text-white/50">Containers</p>
                   </div>
 
-                  <div className="w-[150px] border-2 border-[#1b88f2] bg-[#001432] p-4 text-center shadow-[3px_3px_0_#0a4f93]">
+                  <div className="w-full sm:w-[150px] border-2 border-[#1b88f2] bg-[#001432] p-4 text-center shadow-[3px_3px_0_#0a4f93]">
                     <p className="text-[#1b88f2]">POSTGRESQL</p>
                     <p className="mt-1 text-xs text-white/50">Database</p>
                   </div>
 
-                  <div className="w-[150px] border border-dashed border-white/30 p-4 text-center">
+                  <div className="w-full sm:w-[150px] border border-dashed border-white/30 p-4 text-center">
                     <p className="text-white/60">FUTURE</p>
                     <p className="mt-1 text-xs text-white/40">More Services</p>
                   </div>
@@ -89,11 +89,11 @@ function HomeLabSection() {
 
 
 
-          <div className="group/details relative w-[28%]">
+          <div className="group/details relative w-full lg:w-[28%]">
 
             <div className="absolute top-0 bottom-0 right-0 left-0 translate-x-[7px] translate-y-[7px] border border-[#1b88f2]/20 bg-[#0a4f93]/10 transition-all duration-300 group-hover/details:translate-x-[10px] group-hover/details:translate-y-[10px]" />
 
-            <div className="relative h-full border-2 border-[#1b88f2] bg-[#001432] p-5 transition-all duration-300 group-hover/details:-translate-x-[2px] group-hover/details:-translate-y-[2px]">
+            <div className="relative h-full border-2 border-[#1b88f2] bg-[#001432] p-4 sm:p-5 transition-all duration-300 group-hover/details:-translate-x-[2px] group-hover/details:-translate-y-[2px]">
               <p className="text-lg text-[#1b88f2]">SYSTEM DETAILS</p>
               <div className="mt-5 h-[1px] w-full bg-[#1b88f2]/40" />
 
@@ -173,7 +173,7 @@ function HomeLabSection() {
 
 
 
-          <div className="group/terminal relative w-[32%]">
+          <div className="group/terminal relative w-full lg:w-[32%]">
             <div className="absolute top-0 bottom-0 right-0 left-0 translate-x-[7px] translate-y-[7px] border border-[#1b88f2]/20 bg-[#0a4f93]/10 transition-all duration-300 group-hover/terminal:translate-x-[10px] group-hover/terminal:translate-y-[10px]" />
 
             <div className="relative h-full border-2 border-[#1b88f2] bg-[#001432] shadow-[inset_0_0_30px_rgba(27,136,242,0.05)] transition-all duration-300 group-hover/terminal:-translate-x-[2px] group-hover/terminal:-translate-y-[2px]">
@@ -186,7 +186,7 @@ function HomeLabSection() {
               </div>
 
 
-              <div className={`${ibmPlexMono.className} p-6 text-sm`}>
+              <div className={`${ibmPlexMono.className} p-4 text-xs sm:p-6 sm:text-sm`}>
 
                 <div className="flex">
                   <p className="text-[#1b88f2]">root@homelab</p>
@@ -245,10 +245,10 @@ function HomeLabSection() {
           <div className="relative border-2 border-[#1b88f2] bg-[#001432] p-5 transition-all duration-300 group-hover/services:-translate-x-[2px] group-hover/services:-translate-y-[2px]">
 
             <p className="text-lg text-[#1b88f2]">SERVICES & INFRASTRUCTURE</p>
-            <div className="mt-5 flex gap-4 text-white/80">
+            <div className="mt-5 grid grid-cols-1 gap-4 text-white/80 sm:grid-cols-2 lg:grid-cols-5">
 
 
-              <div className="flex-1 border border-[#1b88f2]/40 bg-[#001432] p-5 transition-all duration-200 hover:-translate-y-[5px] hover:border-[#1b88f2] hover:shadow-[5px_5px_0_#0a4f93]">
+              <div className="border border-[#1b88f2]/40 bg-[#001432] p-5 transition-all duration-200 hover:-translate-y-[5px] hover:border-[#1b88f2] hover:shadow-[5px_5px_0_#0a4f93]">
                 <Box className="text-[#1b88f2]" size={30} />
                 <p className="mt-4 font-semibold">Proxmox VE</p>
                 <p className="mt-1 text-sm text-white/50">Virtualization</p>
@@ -256,7 +256,7 @@ function HomeLabSection() {
               </div>
 
 
-              <div className="flex-1 border border-[#1b88f2]/40 bg-[#001432] p-5 transition-all duration-200 hover:-translate-y-[5px] hover:border-[#1b88f2] hover:shadow-[5px_5px_0_#0a4f93]">
+              <div className="border border-[#1b88f2]/40 bg-[#001432] p-5 transition-all duration-200 hover:-translate-y-[5px] hover:border-[#1b88f2] hover:shadow-[5px_5px_0_#0a4f93]">
                 <Terminal className="text-[#1b88f2]" size={30} />
                 <p className="mt-4 font-semibold">Ubuntu Server</p>
                 <p className="mt-1 text-sm text-white/50">Virtual Machine</p>
@@ -264,7 +264,7 @@ function HomeLabSection() {
               </div>
 
 
-              <div className="flex-1 border border-[#1b88f2]/40 bg-[#001432] p-5 transition-all duration-200 hover:-translate-y-[5px] hover:border-[#1b88f2] hover:shadow-[5px_5px_0_#0a4f93]">
+              <div className="border border-[#1b88f2]/40 bg-[#001432] p-5 transition-all duration-200 hover:-translate-y-[5px] hover:border-[#1b88f2] hover:shadow-[5px_5px_0_#0a4f93]">
 
                 <Container className="text-[#1b88f2]" size={30} />
                 <p className="mt-4 font-semibold">Docker</p>
@@ -275,7 +275,7 @@ function HomeLabSection() {
               </div>
 
 
-              <div className="flex-1 border border-[#1b88f2]/40 bg-[#001432] p-5 transition-all duration-200 hover:-translate-y-[5px] hover:border-[#1b88f2] hover:shadow-[5px_5px_0_#0a4f93]">
+              <div className="border border-[#1b88f2]/40 bg-[#001432] p-5 transition-all duration-200 hover:-translate-y-[5px] hover:border-[#1b88f2] hover:shadow-[5px_5px_0_#0a4f93]">
                 <Database className="text-[#1b88f2]" size={30} />
                 <p className="mt-4 font-semibold">PostgreSQL</p>
                 <p className="mt-1 text-sm text-white/50">Database</p>
@@ -283,7 +283,7 @@ function HomeLabSection() {
               </div>
 
 
-              <div className="flex-1 border border-dashed border-[#1b88f2]/30 p-5 transition-all duration-200 hover:-translate-y-[5px] hover:border-[#1b88f2]/70">
+              <div className="border border-dashed border-[#1b88f2]/30 p-5 transition-all duration-200 hover:-translate-y-[5px] hover:border-[#1b88f2]/70">
                 <HardDrive className="text-white/40" size={30} />
                 <p className="mt-4 font-semibold">More Coming</p>
                 <p className="mt-1 text-sm text-white/50">Future services</p>

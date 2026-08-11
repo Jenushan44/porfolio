@@ -4,14 +4,14 @@ import { bebasNeue, ibmPlexMono, barlowCondensed } from "../fonts";
 function AboutSection() {
 
   return (
-    <div id="about-section" className="relative py-28 scroll-mt-5">
-      <div className="mx-auto w-full max-w-[1400px] px-6">
+    <div id="about-section" className="relative py-16 sm:py-20 lg:py-28 scroll-mt-5">
+      <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6">
 
         <div className="group relative mb-10">
-          <p className={`${barlowCondensed.className} pointer-events-none absolute -right-2 -top-8 text-[150px] font-semibold leading-none text-[#1b88f2] opacity-[0.06] transition-opacity duration-300 group-hover:opacity-[0.4]`}>01</p>
+          <p className={`${barlowCondensed.className} pointer-events-none absolute -right-2 -top-8 text-[100px] sm:text-[120px] lg:text-[150px] font-semibold leading-none text-[#1b88f2] opacity-[0.06] transition-opacity duration-300 group-hover:opacity-[0.4]`}>01</p>
 
           <div className="relative">
-            <p className={`${barlowCondensed.className} text-[90px] font-semibold leading-[0.8] text-white transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#dbeeff] group-hover:drop-shadow-[0_0_10px_rgba(27,136,242,0.35)]`}>ABOUT ME</p>
+            <p className={`${barlowCondensed.className} text-[60px] sm:text-[70px] md:text-[80px] lg:text-[90px] font-semibold leading-[0.8] text-white transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#dbeeff] group-hover:drop-shadow-[0_0_10px_rgba(27,136,242,0.35)]`}>ABOUT ME</p>
             <p className={`${ibmPlexMono.className} mt-4 text-sm text-white/40`}>Computer Science student with interests in software development, AI, and cybersecurity.</p>
             <div className="mt-5 h-[1px] w-20 bg-[#1b88f2] transition-all duration-500 group-hover:w-48" />
           </div>
@@ -30,8 +30,8 @@ function AboutSection() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2">
 
-              <div className="group/who relative border-b border-[#1b88f2]/30 p-8 lg:border-b-0 lg:border-r">
-                <p className={`${bebasNeue.className} absolute right-8 top-3 text-[170px] text-[#1b88f2]/0 transition-all duration-500 group-hover/who:-translate-x-3 group-hover/who:text-[#1b88f2]/[0.05]`}>JP</p>
+              <div className="group/who relative border-b border-[#1b88f2]/30 p-5 sm:p-6 lg:p-8 lg:border-b-0 lg:border-r">
+                <p className={`${bebasNeue.className} absolute right-8 top-3 text-[110px] sm:text-[140px] lg:text-[170px] text-[#1b88f2]/0 transition-all duration-500 group-hover/who:-translate-x-3 group-hover/who:text-[#1b88f2]/[0.05]`}>JP</p>
 
                 <div className="relative flex items-center gap-3">
                   <p className={`${ibmPlexMono.className} text-[12px] text-[#1b88f2]/45`}>01</p>
@@ -45,14 +45,14 @@ function AboutSection() {
                 </div>
 
                 <div className="relative mt-10">
-                  <p className="text-3xl font-semibold text-white transition-all duration-300 group-hover/who:translate-x-2">Jenushan Premkumar</p>
+                  <p className="text-2xl sm:text-3xl font-semibold text-white transition-all duration-300 group-hover/who:translate-x-2">Jenushan Premkumar</p>
 
                   <p className={`${ibmPlexMono.className} mt-2 text-sm text-[#1b88f2]`}>COMPUTER SCIENCE / TMU</p>
 
                   <p className="mt-8 leading-7 text-white/75">I am a fourth year computer science student at Toronto Metropolitan University. I enjoy building software and learning how systems work behind the scenes.</p>
                   <p className="mt-4 leading-7 text-white/75">I am currently focused on full-stack development, cybersecurity, AI, and self-hosted infrastructure. I use personal projects to explore new technologies and improve my development skills.</p>
 
-                  <div className="mt-8 flex gap-6">
+                  <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-6">
                     <div className="flex items-center gap-2">
                       <MapPin size={17} className="text-[#1b88f2] transition-all duration-300 group-hover/who:-translate-y-1" />
                       <p className="text-sm text-white/60">Toronto, Ontario, Canada</p>
@@ -68,7 +68,7 @@ function AboutSection() {
               </div>
 
 
-              <div className="p-8">
+              <div className="p-5 sm:p-6 lg:p-8">
 
 
                 <div className="flex items-center gap-3">
@@ -77,8 +77,8 @@ function AboutSection() {
                   <div className="h-[1px] flex-1 bg-[#1b88f2]/20" />
                 </div>
 
-                <div className="mt-10 flex items-center">
-                  <div className="group/jp relative flex h-[115px] w-[115px] items-center justify-center border border-[#1b88f2]/60 bg-[#001432] transition-all duration-300 hover:-translate-y-1 hover:border-[#1b88f2] hover:shadow-[0_0_25px_rgba(27,136,242,0.15)]">
+                <div className="mt-10 flex flex-col items-stretch sm:flex-row sm:items-center">
+                  <div className="group/jp relative flex h-[90px] mx-auto sm:mx-0 w-[90px] sm:h-[115px] sm:w-[115px] items-center justify-center border border-[#1b88f2]/60 bg-[#001432] transition-all duration-300 hover:-translate-y-1 hover:border-[#1b88f2] hover:shadow-[0_0_25px_rgba(27,136,242,0.15)]">
 
                     <div className="absolute top-2 right-2 bottom-2 left-2 border border-[#1b88f2]/10 transition-all duration-300 group-hover/jp:top-1 group-hover/jp:bottom-1 group-hover/jp:right-1 group-hover/jp:left-1 group-hover/jp:border-[#1b88f2]/30" />
 
@@ -90,7 +90,7 @@ function AboutSection() {
                     <div className="absolute -bottom-1 -right-1 h-2 w-2 border-b border-r border-[#1b88f2]" />
                   </div>
 
-                  <div className="relative h-[280px] w-[65px]">
+                  <div className="relative hidden h-[280px] w-[65px] sm:block">
                     <div className="absolute left-0 top-1/2 h-px w-full bg-[#1b88f2]/40" />
 
                     <div className="absolute right-0 top-[10%] h-[80%] w-[1px] bg-[#1b88f2]/30" />
@@ -102,12 +102,12 @@ function AboutSection() {
                   </div>
 
 
-                  <div className="flex flex-1 flex-col">
+                  <div className="mt-6 flex flex-1 flex-col sm:mt-0">
 
 
-                    <div className="group/development relative flex min-h-[70px] items-center justify-between border-b border-[#1b88f2]/20 px-5 transition-all duration-300 hover:bg-[#1b88f2]/[0.04]">
+                    <div className="group/development relative flex min-h-[70px] items-center justify-between border-b border-[#1b88f2]/20 px-3 sm:px-5 transition-all duration-300 hover:bg-[#1b88f2]/[0.04]">
 
-                      <div className="flex items-center gap-4 transition-all duration-300 group-hover/development:translate-x-3">
+                      <div className="flex items-center gap-3 sm:gap-4 transition-all duration-300 group-hover/development:translate-x-3">
                         <Code2 size={22} className="text-[#1b88f2] transition-all duration-300 group-hover/development:scale-110" />
 
                         <div>
@@ -121,9 +121,9 @@ function AboutSection() {
                       <div className="absolute bottom-0 left-0 h-[1px] w-[0px] bg-[#1b88f2] transition-all duration-500 group-hover/development:w-full" />
                     </div>
 
-                    <div className="group/security relative flex min-h-[70px] items-center justify-between border-b border-[#1b88f2]/20 px-5 transition-all duration-300 hover:bg-[#1b88f2]/[0.04]">
+                    <div className="group/security relative flex min-h-[70px] items-center justify-between border-b border-[#1b88f2]/20 px-3 sm:px-5 transition-all duration-300 hover:bg-[#1b88f2]/[0.04]">
 
-                      <div className="flex items-center gap-4 transition-all duration-300 group-hover/security:translate-x-3">
+                      <div className="flex items-center gap-3 sm:gap-4 transition-all duration-300 group-hover/security:translate-x-3">
                         <Shield size={22} className="text-[#1b88f2] transition-all duration-300 group-hover/security:scale-110" />
 
                         <div>
@@ -138,9 +138,9 @@ function AboutSection() {
                     </div>
 
 
-                    <div className="group/ai relative flex min-h-[70px] items-center justify-between border-b border-[#1b88f2]/20 px-5 transition-all duration-300 hover:bg-[#1b88f2]/[0.04]">
+                    <div className="group/ai relative flex min-h-[70px] items-center justify-between border-b border-[#1b88f2]/20 px-3 sm:px-5 transition-all duration-300 hover:bg-[#1b88f2]/[0.04]">
 
-                      <div className="flex items-center gap-4 transition-all duration-300 group-hover/ai:translate-x-3">
+                      <div className="flex items-center gap-3 sm:gap-4 transition-all duration-300 group-hover/ai:translate-x-3">
                         <Brain size={22} className="text-[#1b88f2] transition-all duration-300 group-hover/ai:scale-110" />
 
                         <div>
@@ -155,9 +155,9 @@ function AboutSection() {
                       <div className="absolute bottom-0 left-0 h-[1px] w-[0px] bg-[#1b88f2] transition-all duration-500 group-hover/ai:w-full" />
                     </div>
 
-                    <div className="group/infrastructure relative flex min-h-[70px] items-center justify-between border-b border-[#1b88f2]/20 px-5 transition-all duration-300 hover:bg-[#1b88f2]/[0.04]">
+                    <div className="group/infrastructure relative flex min-h-[70px] items-center justify-between border-b border-[#1b88f2]/20 px-3 sm:px-5 transition-all duration-300 hover:bg-[#1b88f2]/[0.04]">
 
-                      <div className="flex items-center gap-4 transition-all duration-300 group-hover/infrastructure:translate-x-3">
+                      <div className="flex items-center gap-3 sm:gap-4 transition-all duration-300 group-hover/infrastructure:translate-x-3">
                         <Server size={22} className="text-[#1b88f2] transition-all duration-300 group-hover/infrastructure:scale-110" />
 
                         <div>
@@ -177,7 +177,7 @@ function AboutSection() {
               </div>
             </div>
 
-            <div className="border-t border-[#1b88f2]/40 px-8 py-9">
+            <div className="border-t border-[#1b88f2]/40 px-5 py-7 sm:px-8 sm:py-9">
 
               <div className="flex items-center gap-3">
                 <p className={`${ibmPlexMono.className} text-[12px] text-[#1b88f2]/45`}>03</p>
@@ -186,12 +186,12 @@ function AboutSection() {
 
                 <div className="h-[1px] flex-1 bg-[#1b88f2]/20" />
 
-                <p className={`${ibmPlexMono.className} text-xs text-[#1b88f2]/50`}>2023 — 2027</p>
+                <p className={`${ibmPlexMono.className} hidden text-xs text-[#1b88f2]/50 sm:block`}>2023 - 2027</p>
               </div>
 
               <div className="mt-8 grid grid-cols-1 gap-10 lg:grid-cols-[1.35fr_0.65fr]">
 
-                <div className="group/school flex items-start gap-6">
+                <div className="group/school flex flex-col items-start gap-4 sm:flex-row sm:gap-6">
 
                   <div className="flex h-16 w-16 items-center justify-center border border-[#1b88f2]/50 bg-[#001432] transition-all duration-300 group-hover/school:border-[#1b88f2] group-hover/school:shadow-[4px_4px_0_#0a4f93]">
                     <GraduationCap size={32} className="text-[#1b88f2] transition-all duration-300 group-hover/school:scale-110" />
@@ -199,7 +199,7 @@ function AboutSection() {
 
                   <div className="flex-1">
 
-                    <p className="text-2xl font-semibold text-white transition-all duration-300 group-hover/school:translate-x-2">Toronto Metropolitan University</p>
+                    <p className="text-xl sm:text-2xl font-semibold text-white transition-all duration-300 group-hover/school:translate-x-2">Toronto Metropolitan University</p>
                     <p className="mt-2 text-[#1b88f2]">Bachelor of Science in Computer Science</p>
 
                     <div className="mt-4 flex items-center gap-2">
@@ -208,9 +208,9 @@ function AboutSection() {
                       <p className="text-sm text-white/55">Toronto, Ontario, Canada</p>
                     </div>
 
-                    <div className="mt-5 border-t border-[#1b88f2]/0 pt-4 opacity-0 transition-all duration-500 group-hover/school:border-[#1b88f2]/20 group-hover/school:opacity-100">
+                    <div className="mt-5 border-t border-[#1b88f2]/0 pt-4 opacity-100 md:opacity-0 transition-all duration-500 group-hover/school:border-[#1b88f2]/20 group-hover/school:opacity-100">
 
-                      <div className="grid grid-cols-3 gap-5">
+                      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5">
 
                         <div>
                           <p className={`${ibmPlexMono.className} text-[9px] text-[#1b88f2]/55`}>DEGREE</p>
@@ -234,7 +234,7 @@ function AboutSection() {
                   </div>
                 </div>
 
-                <div className="group/award border-l border-[#1b88f2]/30 pl-7">
+                <div className="group/award border-t border-[#1b88f2]/30 pt-6 lg:border-l lg:border-t-0 lg:pl-7 lg:pt-0">
 
                   <div className="flex items-center gap-3">
                     <Star size={21} className="text-[#1b88f2] transition-all duration-300 group-hover/award:scale-125" />
@@ -252,7 +252,7 @@ function AboutSection() {
               </div>
             </div>
 
-            <div className="border-t border-[#1b88f2]/40 px-8 py-9">
+            <div className="border-t border-[#1b88f2]/40 px-5 py-7 sm:px-8 sm:py-9">
 
               <div className="flex items-center gap-3">
                 <p className={`${ibmPlexMono.className} text-[12px] text-[#1b88f2]/45`}>04</p>
@@ -262,7 +262,7 @@ function AboutSection() {
               </div>
 
 
-              <div className="mt-7 grid grid-cols-2 gap-x-5 gap-y-4 md:grid-cols-4">
+              <div className="mt-7 grid grid-cols-1 gap-x-5 gap-y-4 sm:grid-cols-2 md:grid-cols-4">
 
 
                 <div className="group/data relative border-l border-[#1b88f2]/25 px-4 py-4 transition-all duration-300 hover:-translate-y-1 hover:border-[#1b88f2] hover:bg-[#1b88f2]/[0.04]">
