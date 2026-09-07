@@ -55,7 +55,23 @@ function ProjectSection() {
             github_url="https://github.com/Jenushan44/credit-fraud-detection"
           />
 
+          <ProjectCard
+            name="Bookmark Manager"
+            image="/projects/bookmark-manager.png"
+            description="Full-stack bookmark management application with user authentication and private per-user bookmark collections. Users can create, edit, delete, search, filter, sort, favourite, and organize saved links through a responsive dashboard."
+            skills={["Next.js", "TypeScript", "FastAPI", "PostgreSQL", "Firebase"]}
+            project_url="https://bookmark-manager-five-flax.vercel.app/"
+            github_url="https://github.com/Jenushan44/bookmark-manager"
+          />
 
+          <ProjectCard
+            name="Tweet Behavioral Risk Analysis"
+            image="/projects/tweet-behavioral-risk-analysis.png"
+            description="Serverless AWS pipeline that classifies tweet text into suicide-related risk categories using Amazon Bedrock. S3 uploads trigger a Lambda function that processes tweets, handles rate limiting and retries, and stores the completed classification results in an output S3 bucket."
+            skills={["Python", "AWS Lambda", "Amazon Bedrock", "Amazon S3"]}
+            project_url="https://github.com/Jenushan44/tweet-behavioral-risk-analysis"
+            github_url="https://github.com/Jenushan44/tweet-behavioral-risk-analysis/blob/main/docs/architecture-design.md"
+          />
 
         </div>
         <div className="flex justify-center">

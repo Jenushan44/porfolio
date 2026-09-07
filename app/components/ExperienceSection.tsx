@@ -24,25 +24,27 @@ function ExperienceSection() {
 
           <div className="relative z-10 flex flex-col gap-20">
 
-            <div className="group/atj relative ml-10 flex w-[calc(100%-2.5rem)] justify-start lg:ml-0 lg:mr-auto lg:w-1/2 lg:justify-end lg:pr-20">
-              <div className="absolute right-0 top-1/2 hidden h-[2px] w-20 -translate-y-1/2 bg-[#1b88f2]/35 transition-all duration-300 group-hover/atj:bg-[#1b88f2] lg:block" />
-              <div className="absolute left-[-31px] top-1/2 z-20 h-3 w-3 -translate-y-1/2 rotate-45 border border-[#1b88f2] bg-[#061a33] transition-all duration-300 group-hover/atj:scale-125 group-hover/atj:bg-[#1b88f2] group-hover/atj:shadow-[0_0_12px_rgba(27,136,242,0.7)] lg:left-auto lg:right-[-6px]" />
+            <div className="group/delta relative ml-10 flex w-[calc(100%-2.5rem)] justify-start lg:ml-0 lg:mr-auto lg:w-1/2 lg:justify-end lg:pr-20">
+              <div className="absolute right-0 top-1/2 hidden h-[2px] w-20 -translate-y-1/2 bg-[#1b88f2]/35 transition-all duration-300 group-hover/delta:bg-[#1b88f2] lg:block" />
+              <div className="absolute left-[-31px] top-1/2 z-20 h-3 w-3 -translate-y-1/2 rotate-45 border border-[#1b88f2] bg-[#061a33] transition-all duration-300 group-hover/delta:scale-125 group-hover/delta:bg-[#1b88f2] group-hover/delta:shadow-[0_0_12px_rgba(27,136,242,0.7)] lg:left-auto lg:right-[-6px]" />
+              <ExperienceCard date="Aug 2026 - Present" title="Computer Technician" company_name="Delta Servers" bullets={["Installed and configured Windows on desktops and servers, including BIOS/UEFI setup, boot configuration, drivers, and system updates.", "Installed and upgraded hardware components including RAM and graphics cards in desktops and servers.", "Tested hardware and verified drivers and system configuration after installations and upgrades."]} skills={["Windows", "Computer Hardware", "BIOS/UEFI", "Troubleshooting"]} />
+            </div>
+
+            <div className="group/atj relative ml-10 flex w-[calc(100%-2.5rem)] justify-start lg:ml-auto lg:w-1/2 lg:pl-20">
+              <div className="absolute left-0 top-1/2 hidden h-[2px] w-20 -translate-y-1/2 bg-[#1b88f2]/35 transition-all duration-300 group-hover/atj:bg-[#1b88f2] lg:block" />
+              <div className="absolute left-[-31px] top-1/2 z-20 h-3 w-3 -translate-y-1/2 rotate-45 border border-[#1b88f2] bg-[#061a33] transition-all duration-300 group-hover/atj:scale-125 group-hover/atj:bg-[#1b88f2] group-hover/atj:shadow-[0_0_12px_rgba(27,136,242,0.7)] lg:left-[-6px]" />
               <ExperienceCard date="Mar 2026 - May 2026" title="Web Development Intern" company_name="ATJ Consulting Inc." bullets={["Built responsive frontend features using React and Next.js, including maps, filters, deal cards, and data-driven UI components.", "Tested frontend changes, debugged user-facing issues, and made updates based on team feedback.", "Improved page layouts, component behavior, and mobile responsiveness for a smoother user experience.",]} skills={["React", "Next.js", "JavaScript", "Git"]} />
             </div>
 
-
-
-            <div className="group/meritrium relative ml-10 flex w-[calc(100%-2.5rem)] justify-start lg:ml-auto lg:w-1/2 lg:pl-20">
-              <div className="absolute left-0 top-1/2 hidden h-[2px] w-20 -translate-y-1/2 bg-[#1b88f2]/35 transition-all duration-300 group-hover/meritrium:bg-[#1b88f2] lg:block" />
-              <div className="absolute left-[-31px] top-1/2 z-20 h-3 w-3 -translate-y-1/2 rotate-45 border border-[#1b88f2] bg-[#061a33] transition-all duration-300 group-hover/meritrium:scale-125 group-hover/meritrium:bg-[#1b88f2] group-hover/meritrium:shadow-[0_0_12px_rgba(27,136,242,0.7)] lg:left-[-6px]" />
+            <div className="group/meritrium relative ml-10 flex w-[calc(100%-2.5rem)] justify-start lg:ml-0 lg:mr-auto lg:w-1/2 lg:justify-end lg:pr-20">
+              <div className="absolute right-0 top-1/2 hidden h-[2px] w-20 -translate-y-1/2 bg-[#1b88f2]/35 transition-all duration-300 group-hover/meritrium:bg-[#1b88f2] lg:block" />
+              <div className="absolute left-[-31px] top-1/2 z-20 h-3 w-3 -translate-y-1/2 rotate-45 border border-[#1b88f2] bg-[#061a33] transition-all duration-300 group-hover/meritrium:scale-125 group-hover/meritrium:bg-[#1b88f2] group-hover/meritrium:shadow-[0_0_12px_rgba(27,136,242,0.7)] lg:left-auto lg:right-[-6px]" />
               <ExperienceCard date="Aug 2025 - Nov 2025" title="Software Engineer Intern" company_name="Meritrium Omniventures" bullets={["Developed backend services and optimized SQL queries for financial reporting, data validation, and transaction workflows.", "Designed normalized relational database schemas to improve data integrity, consistency, and query reliability.", "Traced backend execution flows and performed regression testing to improve platform stability and reduce recurring defects.",]} skills={["Python", "React", "PostgreSQL"]} />
             </div>
 
-
-
-            <div className="group/flowealth relative ml-10 flex w-[calc(100%-2.5rem)] justify-start lg:ml-0 lg:mr-auto lg:w-1/2 lg:justify-end lg:pr-20">
-              <div className="absolute right-0 top-1/2 hidden h-[2px] w-20 -translate-y-1/2 bg-[#1b88f2]/35 transition-all duration-300 group-hover/flowealth:bg-[#1b88f2] lg:block" />
-              <div className="absolute left-[-31px] top-1/2 z-20 h-3 w-3 -translate-y-1/2 rotate-45 border border-[#1b88f2] bg-[#061a33] transition-all duration-300 group-hover/flowealth:scale-125 group-hover/flowealth:bg-[#1b88f2] group-hover/flowealth:shadow-[0_0_12px_rgba(27,136,242,0.7)] lg:left-auto lg:right-[-6px]" />
+            <div className="group/flowealth relative ml-10 flex w-[calc(100%-2.5rem)] justify-start lg:ml-auto lg:w-1/2 lg:pl-20">
+              <div className="absolute left-0 top-1/2 hidden h-[2px] w-20 -translate-y-1/2 bg-[#1b88f2]/35 transition-all duration-300 group-hover/flowealth:bg-[#1b88f2] lg:block" />
+              <div className="absolute left-[-31px] top-1/2 z-20 h-3 w-3 -translate-y-1/2 rotate-45 border border-[#1b88f2] bg-[#061a33] transition-all duration-300 group-hover/flowealth:scale-125 group-hover/flowealth:bg-[#1b88f2] group-hover/flowealth:shadow-[0_0_12px_rgba(27,136,242,0.7)] lg:left-[-6px]" />
               <ExperienceCard date="Aug 2025 - Aug 2025" title="IT Intern" company_name="Flowealth Academy" bullets={["Designed and structured online course modules using standardized templates to improve consistency and usability.", "Organized documentation and content workflows to support version control and team collaboration.", "Improved accessibility and layout of instructional materials through systematic formatting and design updates.",]} skills={["Technical Support", "IT Troubleshooting", "Documentation"]} />
             </div>
 
